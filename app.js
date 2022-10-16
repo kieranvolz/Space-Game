@@ -1,4 +1,4 @@
-function StartGame(){
+
 
     let currentShooterIndex = 0
 
@@ -144,7 +144,6 @@ document.addEventListener('keydown', shoot)
 
 
 
-}
 
 
-StartGame()
+
