@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+body{
+  background:black;
+  color:white;
+
+}
+
+.results{
+    text-align:center;
+font-family: 'Share Tech Mono', monospace;
+
+}
+
+#play-again {
+    border: none;
+    outline: none;
+	border: solid white 2px;
+  border-radius:5px;
+	display: flex;
+	flex-wrap: wrap;
+  margin:auto;
+  color: white;
+  background-color: black;
+font-size: 2em;
+padding: 0.4em;
+  font-family: 'Share Tech Mono', monospace;
+margin-top: 25px;
+}
+
+
+.grid {
+	width: 600px;
+	height: 600px;
+  /* use this to match your button style as well*/
+	border: solid white 2px;
+  border-radius:15px;
+	display: flex;
+	flex-wrap: wrap;
+  margin:auto;
+}
+
+.grid div {
+	width: 40px;
+	height: 40px;
+}
+
+.invader {
+/* 	background-color: purple; */
+	border-radius: 20px;
+color:green; 
+    font-size:40px;
+
+  
+}
+
+.invader:after {
+    content: "\f57f";  
+    font-family: FontAwesome;
+    left:-.5px;
+    position:relative;
+    top:-1.5px;
+}
+
+.shooter {
+   transform: rotate(-90deg);
+  font-size:35px;
+ color:blue;
+}
+
+
+.shooter:after {
+    content: "\f197"; 
+    font-family: FontAwesome;
+    left:-5px;
+    position:relative;
+    top:2.5px;
+ }
+
+.laser {
+  color:orange;
+     transform: rotate(-20deg);
+  font-size:35px;
+}
+.laser:after {
+     content: "\f0e7";
+    font-family: FontAwesome;
+    left:5px;
+    position:relative;
+    top:2.5px;
+}
+
+
+
+.boom {
+  color:red;
+  font-size:40px;
+}
+
+.boom:after {
+    content: "\f666";
+    font-family: FontAwesome;
+    left:-.5px;
+    position:relative;
+    top:-1.5px;
+ }
