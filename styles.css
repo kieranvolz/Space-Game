@@ -104,3 +104,12 @@ color:green;
     position:relative;
     top:-1.5px;
  }
+
+
+ p{
+
+  text-align: center;
+  font-size: 1.35rem;
+  font-family: 'Share Tech Mono', monospace;
+
+ }
